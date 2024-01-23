@@ -3,22 +3,22 @@ import Image from "next/image";
 
 function Navbar() {
   return (
-    <nav className="flex justify-between items-center border border-black mx-8 sm:mx-14 py-3 mt-2">
-      <div className="text-[28px] sm:text-[26px] text-zinc-950 font-bold font-mono ml-1">
-        Arogenel
-      </div>
-      <div>
-        <ul className="hidden lg:flex text-[15px] ">
-          <li className="px-5 py-[4px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px] text-[#2A2A2A]">
+    <nav className="flex justify-between items-center border border-black mx-4 sm:mx-14 py-3 mt-2">
+      <div className='flex justify-between items-center'>
+        <div className="text-[25px] sm:text-[26px] text-zinc-950 font-bold font-mono">
+          Arogenel
+        </div>
+        <ul className="hidden lg:flex text-[15px] ml-20">
+          <li className="px-6 py-[4px] hover:bg-neutral-100 hover:rounded -[10px] mx-[1px] text-[#2A2A2A]">
             Home
           </li>
-          <li className="px-5 py-[4px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px] text-[#2A2A2A]">
+          <li className="px-6 py-[4px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px] text-[#2A2A2A]">
             About
           </li>
-          <li className="px-5 py-[4px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px] text-[#2A2A2A]">
+          <li className="px-6 py-[4px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px] text-[#2A2A2A]">
             Help
           </li>
-          <li className="px-5 py-[4px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px] text-[#2A2A2A]">
+          <li className="px-6 py-[4px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px] text-[#2A2A2A]">
             Contact
           </li>
         </ul>
@@ -55,7 +55,9 @@ function Navbar() {
             className=""
             width="20"
           />
-          <div className='top-[3px] right-[3px] absolute text-[5px] border-green-900 border text-white bg-green-900 rounded-[50%]'>2</div>
+          <div className="top-[3px] right-[3px] absolute text-[5px] border-green-900 border text-white bg-green-900 rounded-[50%]">
+            2
+          </div>
         </div>
       </div>
     </nav>
