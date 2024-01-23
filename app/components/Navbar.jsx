@@ -3,22 +3,22 @@ import Image from "next/image";
 
 function Navbar() {
   return (
-    <nav className="flex justify-between items-center border border-black mx-4 sm:mx-14 py-3 mt-2">
+    <nav className="max-w-[1140px] m-auto w-full flex justify-between items-center border border-black px-4 sm:px-5 py-3 mt-2">
       <div className='flex justify-between items-center'>
         <div className="text-[25px] sm:text-[26px] text-zinc-950 font-bold font-mono">
           Arogenel
         </div>
-        <ul className="hidden lg:flex text-[15px] ml-20">
-          <li className="px-6 py-[4px] hover:bg-neutral-100 hover:rounded -[10px] mx-[1px] text-[#2A2A2A]">
+        <ul className="hidden lg:flex text-[15px] ml-20 cursor-pointer">
+          <li className="px-6 py-[4px] hover:bg-[#D6DED3] hover:rounded-[10px] mx-[1px] text-[#2A2A2A]">
             Home
           </li>
-          <li className="px-6 py-[4px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px] text-[#2A2A2A]">
+          <li className="px-6 py-[4px] hover:bg-[#D6DED3] hover:rounded-[10px] mx-[1px] text-[#2A2A2A]">
             About
           </li>
-          <li className="px-6 py-[4px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px] text-[#2A2A2A]">
+          <li className="px-6 py-[4px] hover:bg-[#D6DED3] hover:rounded-[10px] mx-[1px] text-[#2A2A2A]">
             Help
           </li>
-          <li className="px-6 py-[4px] hover:bg-neutral-100 hover:rounded-[10px] mx-[1px] text-[#2A2A2A]">
+          <li className="px-6 py-[4px] hover:bg-[#D6DED3] hover:rounded-[10px] mx-[1px] text-[#2A2A2A]">
             Contact
           </li>
         </ul>

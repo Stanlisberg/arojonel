@@ -9,8 +9,8 @@ function Collections() {
     const sofa = 'images/col-console.svg';
 
   return (
-    <div className='max-w-[1140px] m-auto w-full py-10 px-4 border border-black min-h-[100vh]'>
-      <h1 className='text-zinc-800 text-[30px] font-semibold'>Our Collections</h1>
+    <div className='max-w-[1140px] m-auto w-full py-10 px-4 sm:px-5 border border-black'>
+      <h1 className='text-zinc-800 text-[25px] font-semibold'>Our Collections</h1>
       <div className='grid sm:grid-cols-4 gap-4 pt-5'>
         <div className='col-span-2 sm:col-span-2'>
           <Image
@@ -61,7 +61,7 @@ function Collections() {
           <Image
             alt="search"
             height="20"
-            src='/images/col-chair.jpg'
+            src='/images/col-penthouse.jpg'
             className='object-cover w-full h-full rounded-[10px]'
             width="500"
           />
