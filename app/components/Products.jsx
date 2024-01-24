@@ -59,7 +59,7 @@ async function Products() {
       </div>
       <div className='flex justify-center items-center'>
       <button className="p-2 mt-4 lg:mt-6 font-normal border border-black text-black text-[13px] hover:bg-[#D6DED3] flex items-center justify-between">
-        Shop all{" "}
+        Show all{" "}
         <IoIosArrowRoundForward size={20} className="text-black ml-1" />
       </button>
       </div>
