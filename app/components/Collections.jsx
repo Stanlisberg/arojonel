@@ -5,9 +5,6 @@ import {useState} from 'react';
 
 function Collections() {
 
-    const [data, setData] = useState('images/col-console.svg')
-    const sofa = 'images/col-console.svg';
-
   return (
     <div className='max-w-[1140px] m-auto w-full py-10 px-4 sm:px-5 border border-black'>
       <h1 className='text-zinc-800 text-[25px] font-semibold'>Our Collections</h1>

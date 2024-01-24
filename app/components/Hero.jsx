@@ -12,11 +12,12 @@ function Hero() {
             <p>home with ease</p>
           </div>
           <p className="mt-4 lg:mt-6">
-            Discover the perfect addition to your home with our wide range of
-            stylish and high-quality furniture pieces.
+            Discover a curated selection of high-quality furniture pieces
+            designed to enhance your living spaces. From timeless classics to
+            modern designs, find the perfect additions for your home. 
           </p>
           <button className="p-2 mt-4 lg:mt-6 bg-[#9c7247] font-normal rounded-lg text-[#ffff] text-[13px] flex items-center justify-between">
-            shop now{" "}
+            Shop now{" "}
             <IoIosArrowRoundForward size={20} className="text-[#ffff] ml-1" />
           </button>
         </div>

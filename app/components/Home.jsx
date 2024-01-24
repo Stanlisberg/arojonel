@@ -2,7 +2,9 @@ import React from 'react'
 import Navbar from './Navbar'
 import Hero from './Hero'
 import Collections from './Collections'
-import ProductNav from './ProductNav'
+import Products from './Products'
+import Footer from './Footer'
+
 
 function Home() {
   return (
@@ -10,7 +12,8 @@ function Home() {
      <Navbar />
      <Hero />
      <Collections />
-     <ProductNav />
+     <Products />
+     <Footer />
     </div>
   )
 }

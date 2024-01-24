@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Navbar() {
   return (
-    <nav className="max-w-[1140px] m-auto w-full flex justify-between items-center border border-black px-4 sm:px-5 py-3 mt-2">
+    <nav className="max-w-[1140px] m-auto w-full flex justify-between items-center border border-black px-4 sm:px-5 py-3">
       <div className='flex justify-between items-center'>
         <div className="text-[25px] sm:text-[26px] text-zinc-950 font-bold font-mono">
           Arogenel
