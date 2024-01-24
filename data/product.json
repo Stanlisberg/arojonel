@@ -1,0 +1,44 @@
+{
+    "product": [
+      {
+        "id": "1",
+        "path": "products/col-bed.svg"
+      },
+      {
+        "id": "2",
+        "path": "products/col-chair.svg"
+      },
+      {
+        "id": "3",
+        "path": "products/col-coffee.svg"
+      },
+      {
+        "id": "4",
+        "path": "products/col-console.svg"
+      },
+      {
+        "id": "5",
+        "path": "products/col-sofa.svg"
+      },
+      {
+        "id": "6",
+        "path": "products/col-table.svg"
+      },
+      {
+        "id": "7",
+        "path": "products/col-bed.svg"
+      },
+      {
+        "id": "8",
+        "path": "products/col-chair.svg"
+      },
+      {
+        "id": "9",
+        "path": "products/col-coffee.svg"
+      },
+      {
+        "id": "10",
+        "path": "products/col-console.svg"
+      }
+    ]
+  }
