@@ -18,7 +18,7 @@ async function Products() {
         <h1 className="text-zinc-800 text-[25px] font-semibold px-2">
           Our products
         </h1>
-        <ul className="hidden md:flex text-zinc-500 text-[15px] font-normal cursor-pointer pt-4">
+        <ul className="hidden lg:flex text-zinc-500 text-[15px] font-normal cursor-pointer pt-4">
           <li className="mr-3 pl-2 pr-4 py-[4px] bg-neutral-100 rounded-[10px] hover:text-black">
             All Products
           </li>
