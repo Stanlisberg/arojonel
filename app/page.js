@@ -3,7 +3,7 @@ import Products from "./components/Products";
 
 export default function Page() {
   return (
-    <div>
+    <div className=''>
      <Home />
     </div>
   );

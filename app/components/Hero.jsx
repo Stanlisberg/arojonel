@@ -4,10 +4,10 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 function Hero() {
   return (
-    <div className="bg-[#D6DED3] border border-red-400 w-full px-4 sm:flex sm:items-center sm:justify-center sm:pl-[60px] sm:px-0">
-      <div className="lg:w-full border border-blue-500 lg:flex lg:justify-between lg:items-center">
-        <div className="sm:w-[500px]  border border-black pt-14 sm:pl-5">
-          <div className="text-zinc-800 text-[40px] font-semibold leading-[1.2]">
+    <div className="bg-[#D6DED3] w-full sm:flex sm:items-center sm:justify-center sm:pl-[60px] sm:px-0">
+      <div className="lg:w-full lg:flex lg:justify-between lg:items-center">
+        <div className="sm:w-[500px] pt-10 sm:pl-5 px-4">
+          <div className="text-zinc-800 text-[35px] font-semibold leading-[1.2]">
             <p>Furnish your dream</p>
             <p>home with ease</p>
           </div>
@@ -26,8 +26,8 @@ function Hero() {
             alt="search"
             height="20"
             src="images/hero-image.svg"
-            className="object-cover sm:h-[65vh]"
-            width="500"
+            className="object-cover sm:h-[80vh]"
+            width="700"
           />
         </div>
       </div>
