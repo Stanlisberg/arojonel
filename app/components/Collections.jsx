@@ -45,7 +45,7 @@ function Collections() {
             width="500"
           />
         </div>
-        <div className='sm:col-span-2'>
+        <div className='sm:col-span-1'>
           <Image
             alt="search"
             height="0"
@@ -54,7 +54,7 @@ function Collections() {
             width="500"
           />
         </div>
-        <div className='col-span-2 sm:col-span-1'>
+        <div className='col-span-2 sm:col-span-2'>
           <Image
             alt="search"
             height="20"
