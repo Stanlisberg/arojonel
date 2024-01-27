@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { AiOutlineUser } from "react-icons/ai";
+import { AiOutlineShoppingCart } from "react-icons/ai";
+import { FiSearch } from "react-icons/fi";
 
 function Navbar() {
   return (
@@ -37,14 +40,18 @@ function Navbar() {
           </ul>
         </div>
         <div className="flex justify-between items-center">
-          <div className="w-[200px] hidden sm:flex relative border border-black mr-[40px] rounded-[15px] py-[2px] text-zinc-950 text-opacity-25 text-[13px]">
-            <Image
+          <div className="w-[200px] hidden sm:flex relative border border-white mr-[40px] rounded-[15px] py-[2px] text-zinc-950 text-opacity-25 text-[13px]">
+            <FiSearch 
+            size={17} 
+            color='white'
+            className="absolute left-[10px] top-[8px]" />
+            {/* <Image
               alt="search"
               height="20"
               src="assets/search.svg"
               className="absolute left-[10px] top-[10px]"
               width="12"
-            />
+            /> */}
             <input
               type="text"
               className="h-7 w-[150px] ml-[30px] bg-[#3B5D50] text-[11px] outline-none pl-2 rounded-[10px] placeholder:text-[13px] placeholder:text-[white] text-white opacity-70 font-medium block sm:text-[12px]"
@@ -52,22 +59,24 @@ function Navbar() {
             />
           </div>
           <div className="mr-5 cursor-pointer p-1 hover:bg-neutral-400 hover:rounded-[5px]">
-            <Image
+           <AiOutlineUser size={20} color={'white'}/>
+            {/* <Image
               alt="search"
               height="20"
-              src="assets/user.svg"
+              src=assets/user.svg"
               className=""
               width="20"
-            />
+            /> */}
           </div>
           <div className="relative mr-5 p-1 cursor-pointer hover:bg-neutral-400 hover:rounded-[5px] ">
-            <Image
+            < AiOutlineShoppingCart size={20} color={'white'} />
+            {/* <Image
               alt="search"
               height="20"
               src="assets/shopping-cart.svg"
               className=""
               width="20"
-            />
+            /> */}
             <div className="top-[3px] right-[3px] absolute text-[5px] border-green-900 border text-white bg-green-900 rounded-[50%]">
               2
             </div>

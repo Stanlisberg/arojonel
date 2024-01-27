@@ -84,7 +84,7 @@ function Footer() {
             <input
               type="name"
               placeholder="Enter your email address"
-              className="bg-gray-200 rounded-[5px] border border-black h-7 w-[190px] text-[13px] placeholder:text-[13px] outline-none pl-4 text-zinc-500 font-normal"
+              className="bg-gray-300 rounded-[5px] border border-black h-7 w-[190px] text-[13px] placeholder:text-[13px] outline-none pl-4 text-zinc-500 font-normal"
             />
             <button className="ml-[4px] p-1 px-2 font-normal rounded-[5px] text-black text-[13px] bg-white hover:bg-[black] hover:text-white flex items-center justify-between">
               <Image
@@ -95,7 +95,7 @@ function Footer() {
                 width="100"
                 color=''
               />
-              <p className="px -2">Subscribe</p>
+              <p className="px -2">Subscribe </p>
             </button>
           </div>
         </div>
