@@ -26,11 +26,11 @@ function Navbar() {
                 Help
               </li>
             </Link>
-            <link href="/contact">
+            <Link href="/contact">
               <li className="px-3 opacity-60 hover:opacity-100 link hover:text-white  text-white mx-2">
                 Contact
               </li>
-            </link>
+            </Link>
             {/* <li className="px-6 py-[4px] hover:bg-[#D6DED3] hover:text-black hover:rounded-[10px] mx-[1px] text-white">
             Contact
           </li> */}

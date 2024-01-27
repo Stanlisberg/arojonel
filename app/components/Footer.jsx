@@ -1,9 +1,12 @@
 import React from "react";
 import Image from "next/image";
 
+//-----initial hero bg-color
+// bg-[#D6DED3]
+
 function Footer() {
   return (
-    <div className="bg-[#D6DED3] py-4 mt-10">
+    <div className="bg-gray-300 py-8">
       <div className="text-[12px] grid grid-col-1 grid-cols-12 max-w-[1140px] m-auto w-full py-5 px-4 :sm:px-5">
         <div className="col-span-12 sm:col-span-10 lg:col-span-4 pr-2">
           <h1 className='text-[20px] font-[600]'>Arojonel</h1>
@@ -81,7 +84,7 @@ function Footer() {
             <input
               type="name"
               placeholder="Enter your email address"
-              className="bg-[#D6DED3] rounded-[5px] border border-black h-7 w-[190px] text-[13px] placeholder:text-[13px] outline-none pl-4 text-zinc-500 font-normal"
+              className="bg-gray-200 rounded-[5px] border border-black h-7 w-[190px] text-[13px] placeholder:text-[13px] outline-none pl-4 text-zinc-500 font-normal"
             />
             <button className="ml-[4px] p-1 px-2 font-normal rounded-[5px] text-black text-[13px] bg-white hover:bg-[black] hover:text-white flex items-center justify-between">
               <Image

@@ -8,12 +8,10 @@ import Footer from './Footer'
 
 function Home() {
   return (
-    <div>
-     {/* <Navbar /> */}
+    <div className='bg-zinc-200 pb-10'>
      <Hero />
      <Collections />
      <Products />
-     <Footer />
     </div>
   )
 }
