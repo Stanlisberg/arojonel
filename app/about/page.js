@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import Footer from "../components/Footer";
 
 function About() {
   return (
     <>
       <div className="w-full h-[100vh]">
         <Image
-          //   src="images/about-hero.svg"
           src="/about/leather.jpg"
           alt="image"
           height="0"
@@ -29,8 +29,8 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="lg:flex border border-[chocolate] max-w-[1140px] m-auto w-full lg:pt-20 py-10 px-4 sm:px-5">
-        <div className="w-[100%] lg:w-[50%] border border-[brown] py-5 lg:py-16 text-[13px]">
+      <div className="lg:flex max-w-[1140px] m-auto w-full lg:pt-20 py-10 px-4 sm:px-5">
+        <div className="w-[100%] lg:w-[50%] py-5 lg:py-16 text-[13px]">
           <h1 className="text-2xl font-[600]">Why Choose Us..</h1>
           <p className="mt-4 text-[#6A6A6A]">
             {" "}
@@ -101,7 +101,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="hidden lg:block border border-black w-[50%]">
+        <div className="hidden lg:block w-[50%]">
           <div className="relative">
             <Image
               src="about/right-dot.svg"
@@ -131,8 +131,8 @@ function About() {
           />
         </div>
       </div>
-      <div className="lg:flex border border-blue-500 max-w-[1140px] m-auto w-full pb-10 lg:py-[120px] px-4 sm:px-5">
-        <div className="hidden lg:block border border-red-700 w-[50%]">
+      <div className="lg:flex max-w-[1140px] m-auto w-full pb-10 lg:py-[120px] px-4 sm:px-5">
+        <div className="hidden lg:block w-[50%]">
           <div className="relative">
             <div className="flex justify-end">
               <Image
@@ -140,7 +140,7 @@ function About() {
                 alt="image"
                 height="0"
                 width="200"
-                className=" border border-red-700 justify-center md:w-40 w-full h-[20vh] "
+                className="justify-center md:w-40 w-full h-[20vh] "
               />
             </div>
             <Image
@@ -155,7 +155,7 @@ function About() {
               alt="image"
               height="0"
               width="500"
-              className="absolute w-[34%] top-[120%] left-[54%] h-[60vh]"
+              className="absolute w-[34%] top-[130%] left-[54%] h-[60vh]"
             />
             <Image
               src="/about/tv.jpg"
@@ -166,7 +166,7 @@ function About() {
             />
           </div>
         </div>
-        <div className="lg:w-[50%] w-full border border-black py-5 lg:py-16 text-[13px]">
+        <div className="lg:w-[50%] w-full py-5 lg:py-16 text-[13px]">
           <h1 className="text-2xl font-[600] text-start lg:text-end">
             Modern Designs..
           </h1>
@@ -226,7 +226,7 @@ function About() {
                 width="200"
                 className="w-[20px] mt-1"
               />
-              <p className='text-[#6A6A6A]'>
+              <p className='text-[#6A6A6A] ml-2'>
                 Striking a balance between contemporary trends and timeless
                 design principles for enduring style.
               </p>
@@ -244,6 +244,7 @@ function About() {
           />
         </div>
       </div>
+      <Footer />
     </>
   );
 }

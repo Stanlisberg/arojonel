@@ -8,7 +8,7 @@ import Footer from './Footer'
 
 function Home() {
   return (
-    <div className='bg-zinc-200 pb-10'>
+    <div className='pb-10'>
      <Hero />
      <Collections />
      <Products />

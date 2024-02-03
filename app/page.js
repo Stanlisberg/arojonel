@@ -1,12 +1,11 @@
 import Home from "./components/Home";
-import Products from "./components/Products";
-import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 export default function Page() {
   return (
     <div className=''>
-      {/* <Navbar/> */}
      <Home />
+     <Footer />
     </div>
   );
 }
