@@ -63,9 +63,9 @@ function Navbar() {
           {/* <div className="mr-5 cursor-pointer p-1 hover:bg-neutral-400 hover:rounded-[5px]">
            <AiOutlineUser size={20} color={'white'}/>
           </div> */}
-          <div className="relative pt-2 sm:pt-0 mr-1 sm:mr-5 p-1 cursor-pointer hover:bg-neutral-400 hover:rounded-[5px] ">
-            <AiOutlineShoppingCart size={20} color={"white"} />
-            <div className="top-[3px] right-[3px] absolute text-[5px] border-green-900 border text-white bg-green-900 rounded-[50%]">
+          <div className="relative pt-2 sm:pt-0 mr-1 sm:mr-5 p-1 cursor-pointer">
+            <AiOutlineShoppingCart size={30} className='text-[white] hover:text-black p-1 hover:opacity-60 hover:bg-[white] hover:border hover:rounded-[5px]'/>
+            <div className="top-[3px] right-[8px] absolute text-[5px] border-green-900 border text-white bg-green-900 rounded-[50%]">
               2
             </div>
           </div>
@@ -92,41 +92,23 @@ function Navbar() {
             }
           >
             <ul className="w-full p-4">
-              <Link href="/">
-                <li
-                  className="border-b border-[black] py-6 cursor-pointer text-[black]"
-                  onClick={() => setNavIcon(!navIcon)}
-                >
-                  Home
-                </li>
-              </Link>
-
-              <Link href="/about">
-                <li
-                  className="border-b border-[black] py-6 cursor-pointer text-[black]"
-                  onClick={() => setNavIcon(!navIcon)}
-                >
-                  About
-                </li>
-              </Link>
-
-              <Link href="/contact">
-                <li
-                  className="border-b border-[black] py-6 cursor-pointer text-[black]"
-                  onClick={() => setNavIcon(!navIcon)}
-                >
-                  Contact
-                </li>
-              </Link>
-
-              <Link href="/store">
-                <li
-                  className="border-b border-[black] py-6 cursor-pointer text-[black]"
-                  onClick={() => setNavIcon(!navIcon)}
-                >
-                  Store
-                </li>
-              </Link>
+              {navLinks.map((link, index) => {
+                const isActive = pathname === link.href;
+                return (
+                  <Link href={link.href} key={index}>
+                    <li
+                      className={
+                        isActive
+                          ? "text-[indigo] border-b border-[indigo] py-6 cursor-pointer"
+                          : "border-b border-[black] py-6 cursor-pointer text-[black]"
+                      }
+                      onClick={() => setNavIcon(!navIcon)}
+                    >
+                      {link.name}
+                    </li>
+                  </Link>
+                );
+              })}
             </ul>
           </div>
         </div>
