@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { IoIosArrowRoundForward } from "react-icons/io";
 
 function Hero() {
   return (
@@ -19,7 +18,6 @@ function Hero() {
           <div className='flex'>
           <button className="w-20 p-2 mt-4 lg:mt-6 bg-[#F9BF29] font-normal rounded-lg text-[black] text-[13px] text-center">
             Shop now{" "}
-            {/* <IoIosArrowRoundForward size={20} className="text-[black] ml-1" /> */}
           </button>
           <button className="w-20 text-center  ml-4 p-2 mt-4 lg:mt-6 font-normal border border-white rounded-lg text-[white] text-[13px] ">
             Explore {" "}
@@ -29,10 +27,11 @@ function Hero() {
         <div className="mt-5 lg:mt-0">
           <Image
             alt="search"
-            height="20"
+            height='0'
             src="images/couch.svg"
-            className="object-cover sm:h-[80vh]"
+            className="object-cover sm:h-[80vh] w-auto"
             width="700"
+            priority
           />
         </div>
       </div>

@@ -1,7 +1,5 @@
-'use client'
 import React from "react";
 import Image from "next/image"; 
-import {useState} from 'react';
 
 function Collections() {
 
@@ -61,6 +59,7 @@ function Collections() {
             src='/images/col-penthouse.jpg'
             className='object-cover w-full h-[300px] rounded-[10px]'
             width="500"
+            priority
           />
         </div>
       </div>

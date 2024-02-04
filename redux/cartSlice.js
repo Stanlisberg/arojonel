@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   cartItems: [],
-  cartTotalQuantity: 0,
+  quantity: 0,
 };
 
 const cartSlice = createSlice({
@@ -10,19 +10,20 @@ const cartSlice = createSlice({
   initialState,
   reducers: {
     addToCart: (state, action) => {
-      const itemIndex = state.cartItems.findIndex(
+      const cartIndex = state.cartItems.findIndex(
         (item) => item.id === action.payload.id
       );
 
-      if (itemIndex >= 0) {
-        state.cartItems[itemIndex].cartQuantity += 1;
+      if (cartIndex >= 0) {
+        state.cartItems[cartIndex].quantity += 1;
       } else {
-        const product = { ...action.payload, cartQuantity: 1 };
-        state.cartItems.push(tempProduct);
+        const product = { ...action.payload, quantity: 1 };
+        state.cartItems.push(product);
       }
+    // state.cartItems.push(action.payload)
     },
   },
 });
 
-export const { addToCart } = darkModeSlice.actions;
+export const { addToCart } = cartSlice.actions;
 export default cartSlice.reducer;

@@ -13,7 +13,10 @@ import { GiHamburgerMenu } from "react-icons/gi";
 function Navbar() {
   const [navIcon, setNavIcon] = useState(true);
   const pathname = usePathname();
-  // console.log(pathname);
+
+  if(pathname.startsWith('/about')) {
+    console.log('hey you')
+  }
 
   const navLinks = [
     { name: "Home", href: "/" },
@@ -63,12 +66,17 @@ function Navbar() {
           {/* <div className="mr-5 cursor-pointer p-1 hover:bg-neutral-400 hover:rounded-[5px]">
            <AiOutlineUser size={20} color={'white'}/>
           </div> */}
-          <div className="relative pt-2 sm:pt-0 mr-1 sm:mr-5 p-1 cursor-pointer">
-            <AiOutlineShoppingCart size={30} className='text-[white] hover:text-black p-1 hover:opacity-60 hover:bg-[white] hover:border hover:rounded-[5px]'/>
-            <div className="top-[3px] right-[8px] absolute text-[5px] border-green-900 border text-white bg-green-900 rounded-[50%]">
-              2
+          <Link href="/cart">
+            <div className="relative pt-2 sm:pt-0 mr-1 sm:mr-5 p-1 cursor-pointer">
+              <AiOutlineShoppingCart
+                size={30}
+                className={pathname.startsWith('/cart') ? "text-black p-1 opacity-60 bg-[white] border rounded-[5px]" : "text-[white] hover:text-black p-1 hover:opacity-60 hover:bg-[white] hover:border hover:rounded-[5px]"}
+              />
+              <div className="top-[3px] right-[8px] absolute text-[5px] border-green-900 border text-white bg-green-900 rounded-[50%]">
+                2
+              </div>
             </div>
-          </div>
+          </Link>
           <div className="pt-1 md:hidden ml-3 block cursor-pointer z-10">
             {navIcon === true ? (
               <GiHamburgerMenu
@@ -91,7 +99,7 @@ function Navbar() {
                 : "  fixed top-40 h-full left-[-100%] ease-in duration-700"
             }
           >
-            <ul className="w-full p-4">
+            <div className="w-full p-4">
               {navLinks.map((link, index) => {
                 const isActive = pathname === link.href;
                 return (
@@ -99,8 +107,8 @@ function Navbar() {
                     <li
                       className={
                         isActive
-                          ? "text-[indigo] border-b border-[indigo] py-6 cursor-pointer"
-                          : "border-b border-[black] py-6 cursor-pointer text-[black]"
+                          ? "text-[indigo] border-b border-[indigo] py-6 cursor-pointer list-none"
+                          : "border-b border-[black] py-6 cursor-pointer text-[black] list-none"
                       }
                       onClick={() => setNavIcon(!navIcon)}
                     >
@@ -109,7 +117,7 @@ function Navbar() {
                   </Link>
                 );
               })}
-            </ul>
+            </div>
           </div>
         </div>
       </div>

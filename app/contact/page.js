@@ -19,7 +19,7 @@ function Contact() {
       </div>
       <div className="w-full  lg:w-[50%] h-[100vh] flex items-center justify-center">
         <div className=" h-[80vh] w-full mx-4 sm:mx-10">
-          <h1 className="text-[50px] font-thin">Say Hello.</h1>
+          <h1 className="text-[50px] font-thin">How Can We Help?</h1>
           <form className="flex flex-col p-0 w-full ">
             <div className="flex flex-col sm:flex-row sm:justify-between w-[100%] mt-14">
               <div className="flex-col flex w-full sm:w-[50%]">
