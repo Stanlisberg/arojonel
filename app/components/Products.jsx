@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
 import { IoIosArrowRoundForward } from "react-icons/io";
@@ -57,10 +57,8 @@ const products = [
   },
 ];
 const Products = () => {
-  // const { cartItems} = useSelector(
-  //   (state) => state.cart
-  // );
-
+  const [show, setShow] = useState(8)
+  const [active, setActive] = useState(true)
   const dispatch = useDispatch();
 
   const handleAddToCart = (item) => {
@@ -97,9 +95,9 @@ const Products = () => {
           </li>
         </ul>
       </div>
-      <div className="max-w-[1140px] m-auto w-full gap-2 pb-4 px-4 sm:px-5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
+      <div className="max-w-[1140px] m-auto w-full gap-4 pb-4 px-4 sm:px-5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
         {/* {productLoading && <div className='text-3xl'>Loading</div>} */}
-        {products.map((product, index) => (
+        {products.slice(0, show).map((product, index) => (
           <div key={index} className="">
             <div className="">
               <Image
@@ -110,22 +108,38 @@ const Products = () => {
                 width="100"
               />
             </div>
-            <div className="flex justify-center items-center">
-              <button
-                className="text-[13px] border border-black py-1 px-3 mb-5 mt-1 rounded-[5px] text-white p-1 bg-[#3B5D50] hover:opacity-80"
-                onClick={() => handleAddToCart(product)}
+            <div 
+              className="flex justify-center items-center border text-[15px] border-black py-1 mx-2 my-5 cursor-pointer bg-[#3B5D50] hover:opacity-80 text-white rounded-[5px]"
+              onClick={() => handleAddToCart(product)}
               >
-                Add Item
-              </button>
+                 Add Item
             </div>
           </div>
         ))}
       </div>
       <div className="flex justify-center items-center">
-        <button className="p-2 mt-4 lg:mt-6 font-normal border border-black text-black text-[13px] hover:bg-[#D6DED3] flex items-center justify-between">
+        {active ? ( <button 
+        className="p-2 mt-4 lg:mt-6 font-normal border border-black text-black text-[13px] hover:bg-[#D6DED3] flex items-center justify-between"
+        onClick={() => {
+          setShow((prev) => prev + 20)
+          setActive(!active)
+        }}
+        >
           Show all{" "}
           <IoIosArrowRoundForward size={20} className="text-black ml-1" />
+        </button>) 
+        : (
+          <button 
+        className="p-2 mt-4 lg:mt-6 font-normal border border-black text-black text-[13px] hover:bg-[#D6DED3] flex items-center justify-between"
+        onClick={() => {
+          setShow(8)
+          setActive(!active)
+        }}
+        >
+          Show less{" "}
+          <IoIosArrowRoundForward size={20} className="text-black ml-1" />
         </button>
+        )}
       </div>
     </div>
   );

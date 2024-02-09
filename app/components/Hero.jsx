@@ -3,10 +3,10 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <div className="bg-[#3B5D50] w-full sm:flex sm:px-0 mt-[61px] ">
+    <div className="bg-[#3B5D50] w-full sm:flex sm:px-0 mt-[61px] pt-5">
       <div className="lg:flex lg:justify-between lg:items-center mx-auto lg:max-w-[1140px] ">
         <div className="sm:w-[500px] pt-10 sm:pl-5 px-4">
-          <div className="text-white text-[35px] font-semibold leading-[1.2]">
+          <div className="text-white text-[35px] font-semibold leading-[1.2] mt-20 sm:mt-0">
             <p>Furnish your dream</p>
             <p>home with ease</p>
           </div>

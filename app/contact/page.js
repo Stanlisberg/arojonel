@@ -7,7 +7,7 @@ import { FaEnvelope } from "react-icons/fa";
 
 function Contact() {
   return (
-    <div className="flex w-full">
+    <div className="flex w-full h-[100vh] m-0 p-0">
       <div className="w-[50%] hidden lg:block">
         <Image
           alt="search"
@@ -17,11 +17,11 @@ function Contact() {
           width="500"
         />
       </div>
-      <div className="w-full  lg:w-[50%] h-[100vh] flex items-center justify-center">
-        <div className=" h-[80vh] w-full mx-4 sm:mx-10">
-          <h1 className="text-[50px] font-thin">How Can We Help?</h1>
+      <div className="w-full lg:w-[50%] h-[100vh] flex items-center justify-center">
+        <div className=" h-[100vh] pt-10 w-full mx-4 sm:mx-10 ">
+          <h1 className="text-[40px] font-[200] my-10">How Can We Help?</h1>
           <form className="flex flex-col p-0 w-full ">
-            <div className="flex flex-col sm:flex-row sm:justify-between w-[100%] mt-14">
+            <div className="flex flex-col sm:flex-row sm:justify-between w-[100%] mt-1">
               <div className="flex-col flex w-full sm:w-[50%]">
                 <label htmlFor="username" className="text-[#6A6A6A] font-[600]">
                   Full Name
@@ -54,7 +54,7 @@ function Contact() {
               />
             </div>
           </form>
-          <div className="flex flex-col-reverse sm:flex-row w-full mt-10">
+          <div className="flex flex-col-reverse sm:flex-row w-full mt-5">
             <div className="w-full sm:w-[50%] pb-10 pt-10 ">
               <div className="flex">
                 <ImPhone size={15} className="mt-1" color={"#3B5D50"} />
@@ -86,7 +86,7 @@ function Contact() {
                 height="20"
                 src="contact/sofa.svg"
                 className="object-cover "
-                width="230"
+                width="200"
               />
             </div>
           </div>

@@ -14,7 +14,7 @@ function About() {
           className="w-[100%] h-full object-cover"
         />
         <div className="max-w-[1140px] m-auto">
-          <div className="absolute top-[40%] max-w-[600px]  h-full flex flex-col text-neutral-900 p-4">
+          <div className="absolute top-[31%] max-w-[600px]  h-full flex flex-col text-neutral-900 p-4">
             <h1 className="font-bold text-[35px] ">
               Welcome To Our Furniture Haven
             </h1>

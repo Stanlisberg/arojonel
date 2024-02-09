@@ -22,7 +22,7 @@ function Navbar() {
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
-    { name: "Store", href: "/store" },
+    { name: "Store", href: "/cart" },
   ];
   return (
     <nav className="bg-[#3B5D50] w-full fixed top-0 z-10 ">
@@ -31,7 +31,7 @@ function Navbar() {
           <div className="text-[25px] sm:text-[26px] text-white font-bold font-mono">
             Arojonel
           </div>
-          <div className="hidden lg:flex text-[15px] ml-20 cursor-pointer m-auto">
+          <div className="hidden md:flex text-[15px] ml-20 cursor-pointer m-auto">
             {navLinks.map((link, index) => {
               const isActive = pathname === link.href;
               return (
