@@ -115,13 +115,13 @@ function About() {
               alt="image"
               height="0"
               width="500"
-              className="absolute w-[68%] top-[45%] left-[12%] h-[75vh] "
+              className="absolute w-[68%] top-[45%] left-[12%] h-[25rem] "
             />
           </div>
         </div>
 
         {/*------------mobile view--------------*/}
-        <div className="lg:hidden max-w-[300px] sm:max-w-full mx-auto mt-10">
+        <div className="lg:hidden max-w-[500px] sm:max-w-[900px] mx-auto mt-10">
           <Image
             src="/about/right-image2.jpg"
             alt="image"
@@ -148,21 +148,24 @@ function About() {
               alt="image"
               height="0"
               width="500"
-              className="absolute w-[48%] top-[45%] left-[13%] h-[60vh]"
+              className="absolute w-[48%] top-[45%] left-[13%] h-[23rem]"
+              // className="absolute w-[48%] top-[45%] left-[13%] h-[23rem]"
             />
             <Image
               src="about/stool.svg"
               alt="image"
               height="0"
               width="500"
-              className="absolute w-[34%] top-[130%] left-[54%] h-[60vh]"
+              className="absolute w-[11.7rem] top-[11.3rem] left-[54%] h-[23rem]"
+              // className="absolute w-[11.7rem] top-[12rem] left-[54%] h-[23rem]"
             />
             <Image
               src="/about/tv.jpg"
               alt="image"
               height="0"
               width="500"
-              className="absolute w-[25%] top-[45%] left-[63%] h-[20vh] "
+              className="absolute w-[25%] top-[45%] left-[63%] h-[9rem] "
+              // className="absolute w-[25%] top-[45%] left-[63%] h-[9rem] "
             />
           </div>
         </div>
@@ -234,7 +237,7 @@ function About() {
           </div>
         </div>
         {/*------------mobile view--------------*/}
-        <div className="lg:hidden sm:max-w-full max-w-[300px] mx-auto mt-10">
+        <div className="lg:hidden sm:max-w-[900px] max-w-[500px] mx-auto mt-10">
           <Image
             src="/about/left-image.jpg"
             alt="image"
