@@ -59,13 +59,13 @@ function Contact() {
               <div className="flex">
                 <ImPhone size={15} className="mt-1" color={"#3B5D50"} />
                 <h3 className="ml-2 text-[#6A6A6A] font-[400] text-[15px]">
-                  08034765426
+                  08039233985
                 </h3>
               </div>
               <div className="flex">
                 <FaEnvelope size={15} className="mt-1" color={"#3B5D50"} />
                 <h3 className="ml-2 text-[#6A6A6A] font-[400] text-[15px]">
-                  arojonel.gmail.com
+                  arojonelandsons@gmail.com
                 </h3>
               </div>
               <div className="flex">
