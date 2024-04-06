@@ -1,52 +1,84 @@
 {
-    "product": [
-      {
-        "id": "1",
-        "path": "products/1.svg"
-      },
-      {
-        "id": "2",
-        "path": "products/2.svg"
-      },
-      {
-        "id": "3",
-        "path": "products/3.svg"
-      },
-      {
-        "id": "4",
-        "path": "products/4.svg"
-      },
-      {
-        "id": "5",
-        "path": "products/5.svg"
-      },
-      {
-        "id": "6",
-        "path": "products/6.svg"
-      },
-      {
-        "id": "7",
-        "path": "products/7.svg"
-      },
-      {
-        "id": "8",
-        "path": "products/8.svg"
-      },
-      {
-        "id": "9",
-        "path": "products/1.svg"
-      },
-      {
-        "id": "10",
-        "path": "products/2.svg"
-      },
-      {
-        "id": "11",
-        "path": "products/3.svg"
-      },
-      {
-        "id": "12",
-        "path": "products/4.svg"
-      }
-    ]
-  }
+  "product": [
+    {
+      "id": "1",
+      "path": "/products/chair-1.jpg",
+      "name": "Cudddle Hub",
+      "price": "#700,000",
+      "dimension": "L-60cm, D-90cm, H-60cm",
+      "delivery": "2-3 working days(after payment confirmation",
+      "quantity": "2",
+      "desc": "Cuddle Hub is a piece of furniture typically used for seating one person comfortably.It typically consists of a cushiony seat and backrest, supported by a frame. Sofas come in various sizes, styles, and materials and can be a central element in living rooms, lounges, and other communal spaces. Cuddle Hub provide comfort, support, and can serve as an aesthetic statement piece in interior decorating."
+    },
+    {
+      "id": "2",
+      "path": "/products/chair-2.jpg",
+      "name": "Comfort King",
+      "price": "#340,00",
+      "dimension": "L-60cm, D-90cm, H-60cm",
+      "delivery": "2-3 working days(after payment confirmation",
+      "quantity": "6",
+      "desc": "Cuddle Hub is a piece of furniture typically used for seating one person comfortably.It typically consists of a cushiony seat and backrest, supported by a frame. Sofas come in various sizes, styles, and materials and can be a central element in living rooms, lounges, and other communal spaces. Cuddle Hub provide comfort, support, and can serve as an aesthetic statement piece in interior decorating."
+    },
+    {
+      "id": "3",
+      "path": "/products/chair-3.jpg",
+      "name": "Comfort King",
+      "price": "#400,000",
+      "dimension": "L-60cm, D-90cm, H-60cm",
+      "delivery": "2-3 working days(after payment confirmation",
+      "quantity": "5",
+      "desc": "Cuddle Hub is a piece of furniture typically used for seating one person comfortably.It typically consists of a cushiony seat and backrest, supported by a frame. Sofas come in various sizes, styles, and materials and can be a central element in living rooms, lounges, and other communal spaces. Cuddle Hub provide comfort, support, and can serve as an aesthetic statement piece in interior decorating."
+    },
+    {
+      "id": "4",
+      "path": "/products/chair-4.jpg",
+      "name": "Comfort King",
+      "price": "#550,000",
+      "dimension": "L-60cm, D-90cm, H-60cm",
+      "delivery": "2-3 working days(after payment confirmation",
+      "quantity": "12",
+      "desc": "Cuddle Hub is a piece of furniture typically used for seating one person comfortably.It typically consists of a cushiony seat and backrest, supported by a frame. Sofas come in various sizes, styles, and materials and can be a central element in living rooms, lounges, and other communal spaces. Cuddle Hub provide comfort, support, and can serve as an aesthetic statement piece in interior decorating."
+    },
+    {
+      "id": "5",
+      "path": "/products/chair-5.jpg",
+      "name": "Comfort King",
+      "price": "#120,000",
+      "dimension": "L-60cm, D-90cm, H-60cm",
+      "delivery": "2-3 working days(after payment confirmation",
+      "quantity": "15",
+      "desc": "Cuddle Hub is a piece of furniture typically used for seating one person comfortably.It typically consists of a cushiony seat and backrest, supported by a frame. Sofas come in various sizes, styles, and materials and can be a central element in living rooms, lounges, and other communal spaces. Cuddle Hub provide comfort, support, and can serve as an aesthetic statement piece in interior decorating."
+    },
+    {
+      "id": "6",
+      "path": "/products/chair-6.jpg",
+      "name": "Comfort King",
+      "price": "#230,000",
+      "dimension": "L-60cm, D-90cm, H-60cm",
+      "delivery": "2-3 working days(after payment confirmation",
+      "quantity": "10",
+      "desc": "Cuddle Hub is a piece of furniture typically used for seating one person comfortably.It typically consists of a cushiony seat and backrest, supported by a frame. Sofas come in various sizes, styles, and materials and can be a central element in living rooms, lounges, and other communal spaces. Cuddle Hub provide comfort, support, and can serve as an aesthetic statement piece in interior decorating."
+    },
+    {
+      "id": "7",
+      "path": "/products/chair-7.jpg",
+      "name": "Comfort King",
+      "price": "#285,000",
+      "dimension": "L-60cm, D-90cm, H-60cm",
+      "delivery": "2-3 working days(after payment confirmation",
+      "quantity": "7",
+      "desc": "Cuddle Hub is a piece of furniture typically used for seating one person comfortably.It typically consists of a cushiony seat and backrest, supported by a frame. Sofas come in various sizes, styles, and materials and can be a central element in living rooms, lounges, and other communal spaces. Cuddle Hub provide comfort, support, and can serve as an aesthetic statement piece in interior decorating."
+    },
+    {
+      "id": "8",
+      "path": "/products/chair-3.jpg",
+      "name": "Comfort King",
+      "price": "#800,000",
+      "dimension": "L-60cm, D-90cm, H-60cm",
+      "delivery": "2-3 working days(after payment confirmation",
+      "quantity": "8",
+      "desc": "Cuddle Hub is a piece of furniture typically used for seating one person comfortably.It typically consists of a cushiony seat and backrest, supported by a frame. Sofas come in various sizes, styles, and materials and can be a central element in living rooms, lounges, and other communal spaces. Cuddle Hub provide comfort, support, and can serve as an aesthetic statement piece in interior decorating."
+    }
+  ]
+}

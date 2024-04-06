@@ -1,0 +1,44 @@
+{
+    "chair": [
+      {
+        "id": "1",
+        "path": "/chairs-1.jpeg",
+        "desc": "This is a bed"
+      },
+      {
+        "id": "2",
+        "path": "/chairs-2.jpeg",
+        "desc": "This is a stood"
+      },
+      {
+        "id": "3",
+        "path": "/chairs-3.jpeg",
+        "desc": "This is a chair"
+      },
+      {
+        "id": "4",
+        "path": "/chairs-4.jpeg",
+        "desc": "This is a shelf"
+      },
+      {
+        "id": "5",
+        "path": "/chairs-5.jpeg",
+        "desc": "This is a desk"
+      },
+      {
+        "id": "6",
+        "path": "/chairs-6.jpeg",
+        "desc": "This is a bed"
+      },
+      {
+        "id": "7",
+        "path": "/col-bed.jpg",
+        "desc": "This is a socket"
+      },
+      {
+        "id": "8",
+        "path": "products/8.svg",
+        "desc": "This is a light"
+      }
+    ]
+  }

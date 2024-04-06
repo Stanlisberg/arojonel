@@ -3,7 +3,6 @@
 import React from "react";
 import Link from "next/link";
 import { useState } from "react";
-// import { AiOutlineUser } from "react-icons/ai";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { FiSearch } from "react-icons/fi";
 import { usePathname } from "next/navigation";
@@ -14,8 +13,8 @@ function Navbar() {
   const [navIcon, setNavIcon] = useState(true);
   const pathname = usePathname();
 
-  if(pathname.startsWith('/about')) {
-    console.log('hey you')
+  if (pathname.startsWith("/about")) {
+    console.log("hey you");
   }
 
   const navLinks = [
@@ -63,14 +62,16 @@ function Navbar() {
               placeholder="Search our store..."
             />
           </div>
-          {/* <div className="mr-5 cursor-pointer p-1 hover:bg-neutral-400 hover:rounded-[5px]">
-           <AiOutlineUser size={20} color={'white'}/>
-          </div> */}
+
           <Link href="/cart">
             <div className="relative pt-2 sm:pt-0 mr-1 sm:mr-5 p-1 cursor-pointer">
               <AiOutlineShoppingCart
                 size={30}
-                className={pathname.startsWith('/cart') ? "text-black p-1 opacity-60 bg-[white] border rounded-[5px]" : "text-[white] hover:text-black p-1 hover:opacity-60 hover:bg-[white] hover:border hover:rounded-[5px]"}
+                className={
+                  pathname.startsWith("/cart")
+                    ? "text-black p-1 opacity-60 bg-[white] border rounded-[5px]"
+                    : "text-[white] hover:text-black p-1 hover:opacity-60 hover:bg-[white] hover:border hover:rounded-[5px]"
+                }
               />
               <div className="top-[3px] right-[8px] absolute text-[5px] border-green-900 border text-white bg-green-900 rounded-[50%]">
                 2

@@ -115,7 +115,7 @@ function About() {
               alt="image"
               height="0"
               width="500"
-              className="absolute w-[68%] top-[45%] left-[12%] h-[25rem] "
+              className="absolute w-[68%] top-[45%] left-[12%] h-[25rem] rounded-[5px]"
             />
           </div>
         </div>
@@ -148,7 +148,7 @@ function About() {
               alt="image"
               height="0"
               width="500"
-              className="absolute w-[48%] top-[45%] left-[13%] h-[23rem]"
+              className="absolute w-[48%] top-[45%] left-[13%] h-[23rem] rounded-[5px]"
               // className="absolute w-[48%] top-[45%] left-[13%] h-[23rem]"
             />
             <Image
@@ -156,7 +156,7 @@ function About() {
               alt="image"
               height="0"
               width="500"
-              className="absolute w-[11.7rem] top-[11.3rem] left-[54%] h-[23rem]"
+              className="absolute w-[11.7rem] top-[11.3rem] left-[54%] h-[23rem] rounded-[5px]"
               // className="absolute w-[11.7rem] top-[12rem] left-[54%] h-[23rem]"
             />
             <Image
@@ -164,7 +164,7 @@ function About() {
               alt="image"
               height="0"
               width="500"
-              className="absolute w-[25%] top-[45%] left-[63%] h-[9rem] "
+              className="absolute w-[25%] top-[45%] left-[63%] h-[9rem] rounded-[5px] "
               // className="absolute w-[25%] top-[45%] left-[63%] h-[9rem] "
             />
           </div>

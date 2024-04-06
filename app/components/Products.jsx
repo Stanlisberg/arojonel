@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { addToCart } from "@/redux/cartSlice";
+import Link from "next/link";
 
 const products = [
   {
@@ -71,7 +72,10 @@ const Products = () => {
         <h1 className="text-zinc-800 text-[25px] font-semibold px-2">
           Our products
         </h1>
-        <ul className="hidden lg:flex text-zinc-500 text-[15px] font-normal cursor-pointer pt-4">
+        <Link href='/product'>
+        <h4 className="text-[#3B5D50] underline px-2">See all items</h4>
+        </Link>
+        {/* <ul className="hidden lg:flex text-zinc-500 text-[15px] font-normal cursor-pointer pt-4">
           <li className="mr-3 pl-2 pr-4 py-[4px] bg-neutral-100 rounded-[10px] hover:text-black">
             All Products
           </li>
@@ -93,27 +97,30 @@ const Products = () => {
           <li className="px-4 mx-3 py-[4px] bg-neutral-100 rounded-[10px] hover:text-black">
             Chairs
           </li>
-        </ul>
+        </ul> */}
       </div>
       <div className="max-w-[1140px] m-auto w-full gap-4 pb-4 px-4 sm:px-5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
         {/* {productLoading && <div className='text-3xl'>Loading</div>} */}
         {products.slice(0, show).map((product, index) => (
           <div key={index} className="">
+            <Link href='/product'>
             <div className="">
               <Image
                 alt="search"
                 height="20"
                 src={product.path}
-                className="w-full object-cover h-full"
+                className="w-full object-cover h-full cursor-pointer"
                 width="100"
+                onClick={() => console.log(product.id)}
               />
             </div>
-            <div 
+            </Link>
+            {/* <div 
               className="flex justify-center items-center border text-[15px] border-black py-1 mx-2 my-5 cursor-pointer bg-[#3B5D50] hover:opacity-80 text-white rounded-[5px]"
               onClick={() => handleAddToCart(product)}
               >
                  Add Item
-            </div>
+            </div> */}
           </div>
         ))}
       </div>
