@@ -9,7 +9,7 @@ import { addToCart } from "@/redux/cartSlice";
 import { fetchProducts } from "@/redux/productSlice";
 import { NavbarSub } from "@/custom";
 
-const page = () => {
+const Product = () => {
   const [show, setShow] = useState(8);
   const [active, setActive] = useState(true);
   const dispatch = useDispatch();
@@ -83,4 +83,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Product;
