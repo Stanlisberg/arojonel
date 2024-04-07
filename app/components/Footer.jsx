@@ -19,28 +19,28 @@ function Footer() {
             <li className="pr-2">
               <Image
                 alt="search"
-                height="50"
+                height="20"
                 src="icons/facebook.svg"
                 className="w-[20px] object-cover h-full"
-                width="110"
+                width="20"
               />
             </li>
             <li className="px-2">
               <Image
                 alt="search"
-                height="40"
+                height="20"
                 src="icons/instagram.svg"
                 className="w-[20px] object-cover h-full"
-                width="120"
+                width="20"
               />
             </li>
             <li className="px-2">
               <Image
                 alt="search"
-                height="30"
+                height="20"
                 src="icons/twitter.svg"
                 className="w-[20px] object-cover h-full"
-                width="130"
+                width="20"
               />
             </li>
             <li className="px-2">
@@ -49,7 +49,7 @@ function Footer() {
                 height="20"
                 src="icons/whatsapp.svg"
                 className="w-[20px] object-cover h-full"
-                width="80"
+                width="20"
               />
             </li>
           </ul>
@@ -89,10 +89,10 @@ function Footer() {
             <button className="ml-[4px] p-1 px-2 font-normal rounded-[5px] text-black text-[13px] bg-white hover:bg-[black] hover:text-white flex items-center justify-between">
               <Image
                 alt="search"
-                height="70"
+                height="20"
                 src="icons/subscribe.svg"
                 className="w-[20px] object-cover h-full"
-                width="190"
+                width="20"
                 color=''
               />
               <p className="px -2">Subscribe </p>

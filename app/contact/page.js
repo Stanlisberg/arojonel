@@ -13,7 +13,7 @@ function Contact() {
           alt="search"
           height="20"
           src="/contact/green.jpg"
-          className="w-full object-cover h-[100vh]"
+          className="w-full object-cover h-[100%]"
           width="500"
         />
       </div>
@@ -85,7 +85,7 @@ function Contact() {
                 alt="search"
                 height="20"
                 src="contact/sofa.svg"
-                className="object-cover "
+                className="object-cover"
                 width="200"
               />
             </div>
