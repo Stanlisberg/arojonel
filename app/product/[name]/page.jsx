@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-const getDetails = async (id) => {
+const getDetails = async (name) => {
   //-----imitate delay
   //   await new Promise((resolve) => setTimeout(resolve, 2000));
 
-  const res = await fetch("http://localhost:3002/product/" + id, {
+  const res = await fetch("http://localhost:3002/product/" + name, {
     next: {
       revalidate: 60,
     },
@@ -14,7 +14,7 @@ const getDetails = async (id) => {
 };
 
 async function ProductDetails({ params }) {
-  const product = await getDetails(params.id);
+  const product = await getDetails(params.name);
 
   return (
     <main className="border border-black pt-20 px-28 flex justify-center items-center">
